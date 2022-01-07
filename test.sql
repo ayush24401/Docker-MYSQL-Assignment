@@ -1,10 +1,10 @@
-create table studentdata{
+create table studentdata(
 Roll_no INT primary key,
 Name varchar(25),
 Address varchar(50),
 Mobile_no INT,
 Pan_no varchar(20)
-};
+);
 
 insert into studentdata values(5,"Ayush Shende","Wagholi Pune",85697410,"J6-58412");
 
